@@ -34,5 +34,5 @@ Vegan Jaws is a Vegan Recipes Website where you can search for any vegan recipe 
 - Adding a Vegan Blog page for articles on Veganism.
 - Find a free to use Food-API and making it responsive
 
-[Checkout the Demo](https://www.youtube.com/watch?v=IjQ-zDLSXmk&t=84s) <br>
+[Checkout the Demo](https://www.youtube.com/watch?v=B-mtWkc8LEI) <br>
 [Link to the website - Vegan JAWS](http://veganjaws.biz/)
