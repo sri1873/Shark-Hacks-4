@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
 }
 body{
     background-image: url('../public/sbg2-01.svg');

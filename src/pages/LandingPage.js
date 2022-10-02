@@ -18,7 +18,7 @@ const LandingPage = () => {
             <div id="Blahajkitchen" className="Landingpage">
                 <h1 className='title'>Blahaj Loves <span style={{ fontFamily:'Righteous'}}>Vegan</span></h1>
             <form onSubmit={e=>submit(e)}>
-                <input type='text' placeholder="Search Reciepes" required onChange={e => setKeyword(e.target.value)} />
+                <input type='text' placeholder="Search Recipes" required onChange={e => setKeyword(e.target.value)} />
             </form>
             </div>
             <WhyVegan />

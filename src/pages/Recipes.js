@@ -63,7 +63,43 @@ const Recipes = ({keyword,toggle}) => {
         (() => {
             console.log(data.results)
             setRandomList(data.results)
-            setRecipeList(data.results)
+            setRecipeList( [
+                {
+                    "id": 633117,
+                    "title": "Avocado & Black Bean",
+                    "image": "https://spoonacular.com/recipeImages/633117-312x231.jpg",
+                    "imageType": "jpg"
+                },
+                {
+                    "id": 1697397,
+                    "title": "Avocado chocolate truffles",
+                    "image": "https://spoonacular.com/recipeImages/1697397-312x231.jpg",
+                    "imageType": "jpg"
+                },
+                {
+                    "id": 633120,
+                    "title": "Avocado and Cannellini Bean Salad",
+                    "image": "https://spoonacular.com/recipeImages/633120-312x231.jpg",
+                    "imageType": "jpg"
+                },
+                {
+                    "id": 664501,
+                    "title": "Vegan Taco bowls with Cilantro Lime Cauliflower Rice",
+                    "image": "https://spoonacular.com/recipeImages/664501-312x231.jpg",
+                    "imageType": "jpg"
+                },
+                {
+                    "id": 633126,
+                    "title": "Avocado and Orange Salad With Orange-Ginger Dressing",
+                    "image": "https://spoonacular.com/recipeImages/633126-312x231.jpg",
+                    "imageType": "jpg"
+                },
+                {
+                    "id": 633160,
+                    "title": "Avocado Toast With Caramelized Sweet Onion, Grape Tomatoes, Fresh Garden Chives and Chive Blossoms",
+                    "image": "https://spoonacular.com/recipeImages/633160-312x231.jpg",
+                    "imageType": "jpg"
+                },])
             // getrandomres()
 
         }), []

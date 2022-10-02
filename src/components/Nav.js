@@ -4,8 +4,8 @@ const Nav = () => {
     return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="#Blahajkitchen">
-                <img src="https://media.discordapp.net/attachments/1025403393927290950/1025722294598893598/34689b31-2ec9-427c-95cf-61f871be6642.jpeg" width="30" height="30" className="d-inline-block align-top" alt="" />
-                    Vegan JAWS
+                <img src="https://media.discordapp.net/attachments/1025403393927290950/1025722294598893598/34689b31-2ec9-427c-95cf-61f871be6642.jpeg" width="30" height="30" className="d-inline-block align-top" alt=""/>
+                <span style={{paddingLeft:'12px',fontFamily: 'Merriweather' }}>Vegan JAWS</span> 
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
